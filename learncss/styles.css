@@ -1,0 +1,64 @@
+body {
+  color: #414141;               /* Dark gray */
+  background-color: #EEEEEE;    /* Light gray */
+  font-size: 18px;
+  text-align: center;
+  height: 100%; /* Full height */
+  /*position: fixed; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+/*strong {*/
+  
+/*}*/
+
+ul {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #999;
+}
+.active {
+  background-color: #555;
+}
+.angry {
+  font-size: 2em;
+  font-family: cursive;
+}
+#lastParagraph {
+  font-family: fantasy;
+}
